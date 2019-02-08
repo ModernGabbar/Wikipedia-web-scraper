@@ -6,7 +6,14 @@ It can be used to collect words(s) related to any name, place, or topic that lat
 ## Getting started
 
 Clone this porject to your local machine.
-Enter the commands to install required dependencies:
+install python 3 (if not).
+Install the required dependencies.
+
+### Examples
+```
+python main.py <name of topic> yes
+python main.py 'batman' yes
 ```
 
-```
+### Note
+This project depends on wikipedia api, so it may take a few seconds for downloading page data.
